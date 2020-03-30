@@ -1,0 +1,3494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <title>JSDoc: EMFC</title>
+
+    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="./build/entry.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Muli:100,400,700|Oswald:300|Inconsolata,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="https://jmblog.github.io/color-themes-for-google-code-prettify/themes/tomorrow-night.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/app.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/iframe.css">
+</head>
+
+<body>
+    <div id="stickyNavbarOverlay"></div>
+    <div class="top-navbar">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div class="navbar-brand">
+                    
+                    
+                        <h1 class="navbar-item">Documentation</h1>
+                    
+                    <a id="hamburger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-3" id="sidebarNav">
+                <div class="sidebar">
+                    <nav>
+                        <h2><a href="index.html">Home</a></h2><div class="category"><h3>Modules</h3><ul><li><a href="module-EMFC.html">EMFC</a></li></ul><h3>Classes</h3><ul><li><a href="module-EMFC-ErroParametros.html">ErroParametros</a></li><li><a href="module-EMFC-ErroParametrosObj.html">ErroParametrosObj</a></li></ul></div>
+                    </nav>
+                </div>
+            </div>
+            <div class="column is-9-desktop">
+                <div class="content" id="main-content-wrapper">
+                    <header class="page-title">
+                        <p>Module</p>
+                        <h1>EMFC</h1>
+                    </header>
+                    
+                    
+
+
+
+
+<section>
+
+<header>
+    
+        
+            
+        
+    
+</header>
+
+<article>
+    <div class="container-overview">
+    
+        
+            <div class="description">Emanuel Master Functions Console (EMFC)</div>
+        
+
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-author">Author:</dt>
+    <dd class="tag-author">
+        <ul>
+            <li>Emanuel de Souza Scherer</li>
+        </ul>
+    </dd>
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line1">line 1</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+    </div>
+    
+    
+
+    
+        <h3 class="subsection-title">Requires</h3>
+
+        <ul>
+            <li>module:inquirer^7.0.6</li>
+        
+            <li>module:inquirer-table-prompt^0.2.1</li>
+        
+            <li>module:colors^1.4.0</li>
+        </ul>
+    
+
+    
+        <h3 class="subsection-title">Classes</h3>
+
+        <dl>
+            <dt><a href="module-EMFC-ErroParametros.html">ErroParametros</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-EMFC-ErroParametros.html">ErroParametros</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-EMFC-ErroParametrosObj.html">ErroParametrosObj</a></dt>
+            <dd></dd>
+        
+            <dt><a href="module-EMFC-ErroParametrosObj.html">ErroParametrosObj</a></dt>
+            <dd></dd>
+        </dl>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <div class='vertical-section'>
+            <h3 class="title"><span>Methods</span></h3>
+            <div class="members">
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".Input">
+        <a class="href-link" href="#.Input">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                Input<span class="signature">(mensagem)</span><span class="type-signature"> &rarr; {Promise.&lt;String>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input do console (String)
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line568">line 568</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com a input do usuario</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;String></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem </code></pre>
+    
+
+        <p class="code-caption">Exemplo no console com valor digitado (eae blz?)- Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem eae blz?</code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono</p>
+    
+    
+        <pre class="prettyprint"><code>eae blz? (Se for escrito eae blz?)</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>Input('Mensagem').then(r => {
+  
+     //SEU CODIGO -> r representa o retorno
+
+ })</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".InputCheck">
+        <a class="href-link" href="#.InputCheck">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                InputCheck<span class="signature">(mensagem, escolhas)</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;String>>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input do tipo chackbox de seleção do console (seleção é feita pelas setinhas, espaço seleciona, a seleciona todas, i inverte a seleção, enter da ok)
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>escolhas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;String></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Opções para selecionar no console</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line439">line 439</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com a escolha do usuario</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;Array.&lt;String>></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem (Press &lt;space> to select, &lt;a> to toggle all, &lt;i> to invert selection)
+❯◯ A
+ ◯ B
+ ◯ C</code></pre>
+    
+
+        <p class="code-caption">Exemplo no console - Com seleção - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem 
+❯◉ A
+ ◯ B
+ ◯ C</code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono </p>
+    
+    
+        <pre class="prettyprint"><code>['A'] (Se for escolido A) | ['B'] (Se for escolido B) | ['C'] (Se for escolido C)
+['A', 'B'] (Se for escolido A e B) | ['A', 'C'] (Se for escolido A e C) | ['A', 'B', 'C'] (Se for escolido A, B e C)</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>InputCheck('Mensagem', ['A', 'B', 'C'])
+.then(r => {
+  
+     //SEU CODIGO -> r representa o retorno
+
+ })</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".InputConfirm">
+        <a class="href-link" href="#.InputConfirm">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                InputConfirm<span class="signature">(mensagem)</span><span class="type-signature"> &rarr; {Promise.&lt;Boolean>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input de um Y/N no console
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line694">line 694</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com a input do usuario (Y -> true, N -> false)</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;Boolean></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem (Y/n)</code></pre>
+    
+
+        <p class="code-caption">Exemplo no console com valor digitado (Y)- Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem Yes</code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono</p>
+    
+    
+        <pre class="prettyprint"><code>true (Se for escrito Y) | false (Se for escrito N)</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>InputConfirm('Mensagem').then(r => {
+  
+     //SEU CODIGO -> r representa o retorno
+
+ })</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".InputEditor">
+        <a class="href-link" href="#.InputEditor">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                InputEditor<span class="signature">(mensagem)</span><span class="type-signature"> &rarr; {Promise.&lt;String>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input de um editor de texto (será aberto no momento) (o input só será gravado se o editor for salvo e fechado)
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line630">line 630</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com a input do usuario</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;String></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem Press &lt;enter> to launch your preferred editor.</code></pre>
+    
+
+        <p class="code-caption">Exemplo no console com valor digitado (eae blz?)- Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>Mensagem Received</code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono</p>
+    
+    
+        <pre class="prettyprint"><code>eae blz? (Se for escrito eae blz?)</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>InputEditor('Mensagem').then(r => {
+  
+     //SEU CODIGO -> r representa o retorno
+
+ })</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".InputExpand">
+        <a class="href-link" href="#.InputExpand">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                InputExpand<span class="signature">(mensagem, escolhas)</span><span class="type-signature"> &rarr; {Promise.&lt;String>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input do tipo rawlist de seleção do console (seleção é feita pelas 'keys' da opções, enter da ok)
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>escolhas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;{key: 'a', value: 'A'}></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Opções para selecionar no console, key DEVE ser uma letra apenas</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line366">line 366</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com a escolha do usuario</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;String></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem (abcH) </code></pre>
+    
+
+        <p class="code-caption">Exemplo no console (se for escolido H) - Aqui pode ser usado as 'setinhas', a key ou o valor para seleção - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem (abcH) 
+  a) A
+  b) B
+  c) C
+  h) Help, list all options
+  Answer: A</code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono </p>
+    
+    
+        <pre class="prettyprint"><code>A (Se for escolido a) | B (Se for escolido b) | C (Se for escolido c)</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>InputExpand('Mensagem', [{key: 'a', value: 'A'}, 
+                         {key: 'b', value: 'B'},
+                         {key: 'c', value: 'C'}])
+.then(r => {
+  
+     //SEU CODIGO -> r representa o retorno
+
+ })</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".InputList">
+        <a class="href-link" href="#.InputList">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                InputList<span class="signature">(mensagem, escolhas)</span><span class="type-signature"> &rarr; {Promise.&lt;String>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input do tipo lista de seleção do console (seleção é feita pelas 'setinhas', enter da ok)
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>escolhas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;String></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Opções para selecionar no console</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line228">line 228</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com a escolha do usuario</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;String></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem 
+❯ A 
+  B 
+  C </code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono </p>
+    
+    
+        <pre class="prettyprint"><code>A (Se for escolido A) | B (Se for escolido B) | C (Se for escolido C)</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>InputList('Mensagem', ['A', 'B', 'C']).then(r => {
+
+ //SEU CODIGO -> r representa o retorno
+
+})</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".InputNumber">
+        <a class="href-link" href="#.InputNumber">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                InputNumber<span class="signature">(mensagem)</span><span class="type-signature"> &rarr; {Promise.&lt;Number>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input de numeros no console
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line758">line 758</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com a input do usuario, se for um numero retorna ele, se não refrona NaN (numeros não inteiros DEVEM usar separador ".")</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;Number></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem</code></pre>
+    
+
+        <p class="code-caption">Exemplo no console com valor digitado (5)- Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem 5</code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono</p>
+    
+    
+        <pre class="prettyprint"><code>5 (Se for escrito 5) | 5.5 (Se for escrito 5.5) | NaN (Se for escrito 5,5) | NaN (Se for escrito alo) </code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>InputNumber('Mensagem').then(r => {
+  
+     //SEU CODIGO -> r representa o retorno
+
+ })</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".InputPass">
+        <a class="href-link" href="#.InputPass">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                InputPass<span class="signature">(mensagem)</span><span class="type-signature"> &rarr; {Promise.&lt;String>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input do tipo password do console
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line504">line 504</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com o input do usuario</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;String></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem </code></pre>
+    
+
+        <p class="code-caption">Exemplo no console com senha digita (eae blz?)- Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem ********</code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono</p>
+    
+    
+        <pre class="prettyprint"><code>eae blz? (Se for escrito eae blz?)</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>InputPass('Mensagem').then(r => {
+  
+     //SEU CODIGO -> r representa o retorno
+
+ })</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".InputRaw">
+        <a class="href-link" href="#.InputRaw">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                InputRaw<span class="signature">(mensagem, escolhas)</span><span class="type-signature"> &rarr; {Promise.&lt;String>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input do tipo rawlist de seleção do console (seleção é feita pelas 'setinhas' ou pelo numero da escolha, enter da ok)
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>escolhas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;String></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Opções para selecionar no console</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line293">line 293</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com a escolha do usuario</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;String></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code> ? Mensagem 
+   1) A
+   2) B
+   3) C
+   Answer: 1</code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono </p>
+    
+    
+        <pre class="prettyprint"><code>A (Se for escolido A (1)) | B (Se for escolido B (2)) | C (Se for escolido C (3))</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>InputRaw('Mensagem', ['A', 'B', 'C']).then(r => {
+
+ //SEU CODIGO -> r representa o retorno
+
+})</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".InputTable">
+        <a class="href-link" href="#.InputTable">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                InputTable<span class="signature">(mensagem, colunas, linhas)</span><span class="type-signature"> &rarr; {Promise.&lt;Array.&lt;String>>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Pega um input de seleção em tabela no console
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>mensagem</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Mensagem que ira aparecer no console</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>colunas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;{name: 'Nome', value: 'Valor'}></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">valores das colunas da tabela</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>linhas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;{name: 'Nome', value: 'Valor'}></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">valores das linhas da tabela</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line833">line 833</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retona uma promessa com a input do usuario</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Promise.&lt;Array.&lt;String>></span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>? Mensagem (Press &lt;space> to select, &lt;Up and Down> to move rows, &lt;Left and Right> to move columns)
+┌──────────┬─────────┬─────────┬─────────┐
+│ 1-3 of 3 │ COLUNA1 │ COLUNA2 │ COLUNA3 │
+├──────────┼─────────┼─────────┼─────────┤
+│ LINHA1   │ [ ◯ ]   │   ◯     │   ◯     │
+├──────────┼─────────┼─────────┼─────────┤
+│ LINHA2   │   ◯     │   ◯     │   ◯     │
+├──────────┼─────────┼─────────┼─────────┤
+│ LINHA3   │   ◯     │   ◯     │   ◯     │
+└──────────┴─────────┴─────────┴─────────┘</code></pre>
+    
+
+        <p class="code-caption">Exemplo de retono</p>
+    
+    
+        <pre class="prettyprint"><code>[ 'COLUNA1', 'COLUNA1', 'COLUNA1' ] (Se for escolido tudo na coluna1)</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera a seleção acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>InputTable('Mensagem', [{name: 'COLUNA1', value: 'COLUNA1'},
+                        {name: 'COLUNA2', value: 'COLUNA2'},
+                        {name: 'COLUNA3', value: 'COLUNA2'}], [{name: 'LINHA1', value: 'LINHA1'},
+                                                               {name: 'LINHA2', value: 'LINHA2'},
+                                                               {name: 'LINHA3', value: 'LINHA3'}])
+.then(r => {
+  
+     //SEU CODIGO -> r representa o retorno
+
+ })</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".Print">
+        <a class="href-link" href="#.Print">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                Print<span class="signature">(titulo, linhas)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Printa uma mensagem simples no console na cor branca
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>titulo</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Titulo do print</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>linhas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;{tag: 'TAG1', print: 'PRINT1'}></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">linhas do print</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line174">line 174</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">(Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação)</p>
+    
+    
+        <pre class="prettyprint"><code>===========================TITULO===========================
+ TAG1: PRINT1
+ TAG2: PRINT2
+===========================TITULO===========================</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera o print acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>Print('TITULO', [{tag:'TAG1', print: 'PRINT1'},
+                 {tag:'TAG2', print: 'PRINT2'}])</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".PrintCustom">
+        <a class="href-link" href="#.PrintCustom">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                PrintCustom<span class="signature">(titulo, cor, linhas)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Printa uma mensagem no console com cor customizavel
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>titulo</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Titulo do print</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>cor</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Nome da cor, possiveis: [black, red, green, yellow, blue, magenta, cyan, white, gray, grey, rainbow, zebra, america, trap, random]</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>linhas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;{tag: 'TAG1', print: 'PRINT1'}></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">linhas do print</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line129">line 129</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação</p>
+    
+    
+        <pre class="prettyprint"><code>===========================TITULO===========================
+ TAG1: PRINT1
+ TAG2: PRINT2
+===========================TITULO===========================</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera o print acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>PrintCustom('TITULO', 'yellow', [{tag:'TAG1', print: 'PRINT1'},
+                                 {tag:'TAG2', print: 'PRINT2'}])</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".PrintError">
+        <a class="href-link" href="#.PrintError">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                PrintError<span class="signature">(titulo, linhas)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Printa uma mensagem no console com a cor vermelha (Utilizado para informar erro)
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>titulo</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Titulo do print</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>linhas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;{tag: 'TAG1', print: 'PRINT1'}></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">linhas do print</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line83">line 83</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">(Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação)</p>
+    
+    
+        <pre class="prettyprint"><code>===========================TITULO===========================
+ TAG1: PRINT1
+ TAG2: PRINT2
+===========================TITULO===========================</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera o print acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>PrintError('TITULO', [{tag:'TAG1', print: 'PRINT1'},
+                   {tag:'TAG2', print: 'PRINT2'}])</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".PrintOk">
+        <a class="href-link" href="#.PrintOk">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                PrintOk<span class="signature">(titulo, linhas)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Printa uma mensagem no console com a cor verde (Utilizado para dizer tudo OK)
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>titulo</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">String</span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Titulo do print</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>linhas</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;{tag: 'TAG1', print: 'PRINT1'}, {tag: 'TAG2', print: 'PRINT2'}></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">linhas do print</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line38">line 38</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Examples</h5>
+    
+        <p class="code-caption">(Exemplo no console - Sem as cores, pois não podem ser colocadas na Documentação)</p>
+    
+    
+        <pre class="prettyprint"><code>===========================TITULO===========================
+ TAG1: PRINT1
+ TAG2: PRINT2
+===========================TITULO===========================</code></pre>
+    
+
+        <p class="code-caption">Exemplo de uso - Gera o print acima ⇧</p>
+    
+    
+        <pre class="prettyprint"><code>PrintOk('TITULO', [{tag:'TAG1', print: 'PRINT1'},
+                   {tag:'TAG2', print: 'PRINT2'}])</code></pre>
+    
+
+
+</div>
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".VerifyParams">
+        <a class="href-link" href="#.VerifyParams">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                VerifyParams<span class="signature">(Params, Ex)</span><span class="type-signature"> &rarr; {Boolean}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Verifica se os parametros do metodo estao certos (Esse metodo é gambiara e instavel, então cuidado ao usar)
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>Params</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;{param: 'NomeParametro', valor: Parametro}></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">Diz os parametros do metodo</td>
+</tr>
+
+
+    
+
+        
+<tr class="deep-level-0">
+  
+      <td class="name"><code>Ex</code></td>
+  
+
+  <td class="type">
+  
+      
+<span class="param-type">Array.&lt;'string', true, {a:'adsa', b:8}></span>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">1 possvel exemplo de parametro correto</td>
+</tr>
+
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="emfc.js.html" class="button">View Source</a>
+            <span>
+                <a href="emfc.js.html">emfc.js</a>, <a href="emfc.js.html#line881">line 881</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>Retorna true quando todos estao certos, false quando algum esta errado
+(Printa no console o que esta errado e porque)</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<span class="param-type">Boolean</span>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+</div>
+            
+            </div>
+        </div>
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.3</a> on Mon Mar 30 2020 16:26:12 GMT-0300 (GMT-03:00)</p>
+        <p class="sidebar-created-by">
+            <a href="https://github.com/SoftwareBrothers/better-docs" target="_blank">BetterDocs theme</a> provided with <i class="fas fa-heart"></i> by 
+            <a href="http://softwarebrothers.co" target="_blank">SoftwareBrothers - JavaScript Development Agency</a>
+        </p>
+    </div>
+</footer>
+
+
+<script src="scripts/app.min.js"></script>
+<script src="scripts/linenumber.js"> </script>
+</body>
+</html>
