@@ -1,6 +1,6 @@
 {
   "name": "emfc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Emanuel Master Functions Console",
   "main": "emfc.js",
   "dependencies": {
