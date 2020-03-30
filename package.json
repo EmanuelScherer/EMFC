@@ -1,0 +1,20 @@
+{
+  "name": "emfc",
+  "version": "1.0.0",
+  "description": "Emanuel Master Functions Console",
+  "main": "emfc.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^7.0.6",
+    "inquirer-table-prompt": "^0.2.1"
+  },
+  "devDependencies": {
+    "better-docs": "^1.4.7",
+    "jsdoc-to-markdown": "^5.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Emanuel de Souza Scherer",
+  "license": "ISC"
+}
